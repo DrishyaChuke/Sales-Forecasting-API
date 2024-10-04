@@ -1,3 +1,11 @@
+streamlit==1.36.0
+fastapi
+uvicorn
+joblib
+scikit-learn==1.5.1
+xgboost
+pandas==2.2.2
+
 # local package
 -e .
 

@@ -8,8 +8,8 @@ import numpy as np
 from pydantic import BaseModel
 
 # Load the trained model and scaler
-model = joblib.load("/Users/vega7unk/Documents/3rd_Sem_DSI/Adv_ML/AT2/Project/adv_mla_at2/models/predictive/xgb_predictive_model.pkl")
-# scaler = joblib.load("app/model/scaler.pkl")
+model = load("/Users/vega7unk/Documents/3rd_Sem_DSI/Adv_ML/AT2/Project/adv_mla_at2/models/predictive/xgb_predictive_model.pkl")
+scaler = load("/Users/vega7unk/Documents/3rd_Sem_DSI/Adv_ML/AT2/Project/adv_mla_at2/models/predictive/scaler.pkl")
 
 # Initialize FastAPI
 app = FastAPI()
