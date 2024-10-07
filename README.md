@@ -55,3 +55,11 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+On terminal run 
+1) "Poetry init"
+2) "Poetry run jupyter notebook"
+
+->> navigate through "notebooks" dir for the jupyter files, best models are saved on "models" dir.
+
